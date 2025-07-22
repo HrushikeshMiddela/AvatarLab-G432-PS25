@@ -1,5 +1,6 @@
 # AvatarLab-G432-PS25
 An end-to-end system that generates **AI-driven avatars** by combining **voice cloning** and **talking head video generation** using advanced open-source models.
+
 ## 🧩 Architecture & Workflow
 
 ![Architecture Diagram](./samples/Architecture.png)
@@ -12,6 +13,13 @@ An end-to-end system that generates **AI-driven avatars** by combining **voice c
 - 🔹 [Sample Video 1](./samples/output1.mp4)
 - 🔹 [Sample Video 2](./samples/output2.mp4)
 
+---
+
+## 🖼️ Website 
+
+| Homepage | Dashboard | Create Page |
+|----------|-----------|-------------|
+| ![Homepage](./samples/Screenshot%202025-07-22%20165714.png) | ![Dashboard](./samples/Screenshot%202025-07-22%20165725.png) | ![Create Page](./samples/Screenshot%202025-07-22%20165743.png) |
 
 ---
 
@@ -42,16 +50,16 @@ We tested 10+ models for both speech synthesis and talking head video generation
 | OpenVoice  | TTS             | ❌ Unstable |                                      |
 | Bark       | TTS             | ❌ Very slow |                                      |
 | Small-E    | TTS             | ❌ Experimental |                                  |
-| Tortoise TTS | TTS             | ❌ Slow, GPU required |                      |
+| Tortoise TTS | TTS           | ❌ Slow, GPU required |                      |
 | DiffTalk   | Video           | ❌ Expired checkpoints |                         |
 | PC-AVS     | Video           | ❌ Model complexity |                          |
-| DreamTalker | Video           | ❌ mid quality |                            |
+| DreamTalker | Video          | ❌ Mid quality |                            |
 | Memo       | Video           | ❌ Output quality low |                        |
 | AniTalker  | Video           | ❌ Unrealistic movements |                       |
 
-🧠 **Why We Chose StyleTTS2 + SadTalker?**
-🧑‍🎤 **StyleTTS2**: lightweight, great output even without GPU
-🎥 **SadTalker**: better control of facial movements, easy integration
+🧠 **Why We Chose StyleTTS2 + SadTalker?**  
+🧑‍🎤 **StyleTTS2**: lightweight, great output even without GPU  
+🎥 **SadTalker**: better control of facial movements, easy integration  
 ⚡ **Other models were either:**
 - Too large for CPU inference
 - Poor in quality
@@ -82,12 +90,12 @@ We tested 10+ models for both speech synthesis and talking head video generation
 
 ## 👨‍💻 Team Members (Alphabetical Order)
 
-- Abhishek Kumar
-- Anand Sai
-- Hrushikesh Sai
-- Samuel
-- Sowmith
-- Yashwanth
+- Abhishek Kumar  
+- Anand Sai  
+- Hrushikesh Sai  
+- Samuel  
+- Sowmith  
+- Yashwanth  
 
 ---
 
