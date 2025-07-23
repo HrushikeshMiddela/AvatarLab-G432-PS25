@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { User, LogOut } from 'lucide-react';
 import { useAuth } from '../auth/AuthContext';
-import { Button } from './ui/button';
+// import { Button } from './ui/button';
 
 interface NavbarProps {
   scrolled: boolean;
