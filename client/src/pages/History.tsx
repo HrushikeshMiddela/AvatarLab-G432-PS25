@@ -19,7 +19,7 @@ interface IGeneratedContent {
 }
 
 interface HistoryDisplayProps {
-    API_BASE_URL: string;
+    API_BASE_URL: "http://localhost:5000";
 }
 
 const HistoryDisplay: React.FC<HistoryDisplayProps> = ({ API_BASE_URL }) => {

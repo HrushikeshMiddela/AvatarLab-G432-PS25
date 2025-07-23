@@ -45,7 +45,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/history" element={<HistoryDisplay />} />
+          <Route path="/history" element={<HistoryDisplay API_BASE_URL="http://localhost:5000" />} />
+
           <Route path="/create" element={<CreatePage />} />
          <Route path="/dashboard" element={<PostLoginDashboard />} /> {/* ✅ NEW */}
             <Route path="/heygen" element={<HeygenPage />} /> {/* ✅ NEW */}

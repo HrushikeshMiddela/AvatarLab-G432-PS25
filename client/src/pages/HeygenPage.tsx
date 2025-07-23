@@ -368,7 +368,7 @@ const HeygenPage: React.FC = () => {
         {/* Step 3: Video Result */}
         {step === 3 && videoUrl && (
           <div className="bg-gray-900/50 p-8 rounded-2xl border border-white/10">
-            {(step === 2 || step === 3) && selectedVoice && selectedAvatar && (
+            {( step === 3) && selectedVoice && selectedAvatar && (
   <div className="flex items-center gap-6 mb-8 bg-gray-900/50 border border-white/10 p-4 rounded-xl">
     {/* Avatar Image */}
     <div className="w-24 h-24 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
