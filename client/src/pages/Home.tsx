@@ -89,7 +89,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Navbar } from '../components/Navbar';
-// import { Button } from '../components/ui/button';
+import { Button } from "@/components/ui/button";
+
 import { useAuth } from '../auth/AuthContext';
 import { ArrowRight } from 'lucide-react';
 
